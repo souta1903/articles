@@ -20,3 +20,11 @@ Route::resource('articles', 'ArticleController')->except('index');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+// Route::get('hello/',function()use ($html){
+//     return $html;
+// });
+
+// Route::get('hello',function(){
+//     return '<html><body><h1>hello</h1></body></html><p>This is sample page</p>';
+// });

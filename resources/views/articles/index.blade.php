@@ -8,11 +8,11 @@
         <div class="card-header">投稿一覧</div>
 
         <div class="card-body">
-            {{-- ーーここから追加ーー --}}
+           
           <button type="button" class="btn btn-primary mb-3 d-block w-100" onclick="location.href='{{ route('articles.create') }}'">
-            {{-- 新規投稿 --}}
+            新規投稿する！
           </button>
-          {{-- ーーここまで追加ーー --}}
+        
           <div class="table-resopnsive">
             <table class="table table-striped">
               <thead>
