@@ -1,3 +1,10 @@
+## 開発環境
+- OS： MacOS Catalina
+- PHP： 7.3
+- Laravel： 6.2
+- MySQL: 5.7
+
+
 ## 実装の流れ
 1. Articleモデルとマイグレーションファイルの作成
 2. Articlesテーブル作成
